@@ -50,3 +50,11 @@ radius = input('Enter radius of circle: ')
 area_of_circle = math.pi * (int(radius) ** 2)
 print(area_of_circle)
 
+first_name = input('Enter first name: ')
+last_name = input('Enter last name: ')
+country = input('Enter country name: ')
+age = input('Enter your age: ')
+
+print(first_name, last_name, country, age)
+
+help('keywords')
